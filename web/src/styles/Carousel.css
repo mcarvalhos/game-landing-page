@@ -1,0 +1,118 @@
+.left-arrow,
+.right-arrow {
+  position: absolute;
+  width: 80px;
+  height: 613px;
+  background-color: red;
+  z-index: 99;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+  opacity: 0;
+  transition: all ease 0.5s;
+}
+
+.left-arrow {
+  left: 0;
+}
+.right-arrow {
+  right: 0;
+}
+
+.characterRow:hover .left-arrow,
+.characterRow:hover .right-arrow {
+  opacity: 1;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+@media (min-width: 1024px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    width: 80px;
+    height: 500px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .characterRow:hover .carousel-control-prev,
+  .characterRow:hover .carousel-control-next {
+    opacity: 1;
+  }
+}
+@media (min-width: 1920px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    width: 80px;
+    height: 900px;
+    margin: 0 100px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .characterRow:hover .carousel-control-prev,
+  .characterRow:hover .carousel-control-next {
+    opacity: 1;
+  }
+}
+@media (min-width: 2560px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    position: absolute;
+    width: 80px;
+    height: 613px;
+    margin: 0 200px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: 0;
+    transition: all ease 0.5s;
+  }
+
+  .carousel-control-prev {
+    left: 0;
+  }
+  .carousel-control-next {
+    right: 0;
+  }
+
+  .characterRow:hover .carousel-control-prev,
+  .characterRow:hover .carousel-control-next {
+    opacity: 1;
+  }
+}
